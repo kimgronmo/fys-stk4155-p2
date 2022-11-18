@@ -1,0 +1,386 @@
+(base) C:\Users\kimgr\Downloads\STUDY\Master\2022\fys-stk4155\project2>python project2.py
+---------------------
+Running main function
+---------------------
+
+Generating the FrankeFunction Dataset: Done
+
+Starting Project 2: part a
+
+
+#### OLS Regression with GD ####
+Calculating OLS with GD and no momentum
+Max R2 score:  0.8994492283979347  for eta value:  0.1
+
+Calculating OLS with GD and momentum
+Max R2 score:  0.9554655786909367  for eta value:  0.1  with momentum:  1.0
+
+Calculating OLS with GD, time decay rate tuning and no momentum
+Max R2 score:  0.7022254291730606  for eta value:  10.0  with momentum:  0.0  for tuning: time decay rate
+
+Calculating OLS with GD, time decay rate tuning and momentum
+Max R2 score:  0.6810933633835246  for eta value:  1e-05  with momentum:  1.0  for tuning: time decay rate
+
+Calculating OLS with GD, Adagrad tuning and no momentum
+Max R2 score:  0.8719899553243384  for eta value:  0.01  with momentum:  0.0  for tuning: Adagrad
+
+Calculating OLS with GD, Adagrad tuning and momentum
+Max R2 score:  0.9427534612512227  for eta value:  0.001  with momentum:  1.0  for tuning: Adagrad
+
+Calculating OLS with GD, RMSprop tuning and no momentum
+Max R2 score:  0.8701362951418907  for eta value:  0.001  with momentum:  0.0  for tuning: RMSprop
+
+Calculating OLS with GD, RMSprop tuning and momentum
+Max R2 score:  0.915646859299703  for eta value:  0.0001  with momentum:  1.0  for tuning: RMSprop
+
+Calculating OLS with GD, Adam tuning and no momentum
+Max R2 score:  0.9468368583658122  for eta value:  0.001  with momentum:  0.0  for tuning: Adam
+
+Calculating OLS with GD, Adam tuning and momentum
+Max R2 score:  0.8550870742129781  for eta value:  0.001  with momentum:  1.0  for tuning: Adam
+
+#### Ridge Regression with GD ####
+
+Calculating Ridge with GD and no momentum
+Max R2 score:  -1.0  for eta value:  0.001  with lambda:  -1.0
+
+Calculating Ridge with GD and momentum
+Max R2 score:  0.9554655786909367  for eta value:  0.1  with momentum:  1.0
+
+Calculating Ridge with GD, time decay rate tuning and no momentum
+Max R2 score:  0.9315668528011549  for eta value:  10.0  with momentum:  0.0  for tuning: time decay rate
+
+Calculating Ridge with GD, time decay rate tuning and momentum
+Max R2 score:  0.6810933633835246  for eta value:  1e-05  with momentum:  1.0  for tuning: time decay rate
+
+Calculating Ridge with GD, Adagrad tuning and no momentum
+Max R2 score:  0.9569747629850014  for eta value:  1.0  with momentum:  0.0  for tuning: Adagrad
+
+Calculating Ridge with GD, Adagrad tuning and momentum
+Max R2 score:  0.9427534612512227  for eta value:  0.001  with momentum:  1.0  for tuning: Adagrad
+
+Calculating Ridge with GD, RMSprop tuning and no momentum
+Max R2 score:  0.9552913419490662  for eta value:  0.01  with momentum:  0.0  for tuning: RMSprop
+
+Calculating Ridge with GD, RMSprop tuning and momentum
+Max R2 score:  0.915646859299703  for eta value:  0.0001  with momentum:  1.0  for tuning: RMSprop
+
+Calculating Ridge with GD, Adam tuning and no momentum
+Max R2 score:  0.9468368583658122  for eta value:  0.001  with momentum:  0.0  for tuning: Adam
+
+Calculating Ridge with GD, Adam tuning and momentum
+Max R2 score:  0.8550870742129781  for eta value:  0.001  with momentum:  1.0  for tuning: Adam
+
+#### OLS Regression with SGD ####
+
+Calculating OLS with SGD and no momentum
+Max R2 score:  0.9375080872397278  for eta value:  0.1  with lambda:  0.0  mini batch size:  32  and momentum:  0.0
+
+Calculating OLS with SGD and momentum
+Max R2 score:  0.9542700187860449  for eta value:  1.0  with lambda:  0.0  mini batch size:  64  and momentum:  0.7
+
+Calculating OLS with SGD, time decay rate tuning and no momentum
+Max R2 score:  0.49267559794375304  for eta value:  0.0001  with lambda:  0.0  mini batch size:  32  and momentum:  0.0
+
+Calculating OLS with SGD, time decay rate tuning and momentum
+Max R2 score:  0.6719798824544578  for eta value:  0.0001  with lambda:  0.0  mini batch size:  32  and momentum:  0.7
+
+Calculating OLS with SGD, Adagrad tuning and no momentum
+Max R2 score:  0.9574800151512822  for eta value:  0.001  with lambda:  0.0  mini batch size:  64  and momentum:  0
+
+Calculating OLS with SGD, Adagrad tuning and momentum
+Max R2 score:  0.9559216834878432  for eta value:  0.001  with lambda:  0.0  mini batch size:  32  and momentum:  0.1
+
+Calculating OLS with SGD, RMSprop tuning and no momentum
+Max R2 score:  0.9549145217925612  for eta value:  0.001  with lambda:  0.0  mini batch size:  64  and momentum:  0.0
+
+Calculating OLS with SGD, RMSprop tuning and momentum
+Max R2 score:  0.958264087573614  for eta value:  0.0001  with lambda:  0.0  mini batch size:  32  and momentum:  0.4
+
+Calculating OLS with SGD, Adam tuning and no momentum
+Max R2 score:  0.9516788495007668  for eta value:  0.001  with lambda:  0.0  mini batch size:  32  and momentum:  0.0
+
+Calculating OLS with SGD, Adam tuning and momentum
+Max R2 score:  0.9543277234197055  for eta value:  0.001  with lambda:  0.0  mini batch size:  32  and momentum:  0.4
+
+#### Ridge Regression with SGD ####
+
+Calculating Ridge with SGD and no momentum
+Max R2 score:  0.9490868812075852  for eta value:  0.01  with lambda:  0.01  mini batch size:  64  and momentum:  0.0
+
+Calculating Ridge with SGD and momentum
+Max R2 score:  0.9595261962094997  for eta value:  0.1  with lambda:  1e-05  mini batch size:  32  and momentum:  0.7
+
+Calculating Ridge with SGD, time decay rate tuning and no momentum
+Max R2 score:  0.9008555407281371  for eta value:  0.0001  with lambda:  0.1  mini batch size:  32  and momentum:  0.0
+
+Calculating Ridge with SGD, time decay rate tuning and momentum
+Max R2 score:  0.9426908419320102  for eta value:  0.1  with lambda:  0.01  mini batch size:  32  and momentum:  0.7
+
+Calculating Ridge with SGD, Adagrad tuning and no momentum
+Max R2 score:  0.958731148914375  for eta value:  0.001  with lambda:  0.001  mini batch size:  64  and momentum:  0
+
+Calculating Ridge with SGD, Adagrad tuning and momentum
+Max R2 score:  0.9656493935799992  for eta value:  0.01  with lambda:  0.0001  mini batch size:  32  and momentum:  0.4
+
+Calculating Ridge with SGD, RMSprop tuning and no momentum
+Max R2 score:  0.96338442269041  for eta value:  0.001  with lambda:  0.001  mini batch size:  64  and momentum:  0.0
+
+Calculating Ridge with SGD, RMSprop tuning and momentum
+Max R2 score:  0.9614572951653363  for eta value:  0.001  with lambda:  1e-05  mini batch size:  32  and momentum:  0.4
+
+Calculating Ridge with SGD, Adam tuning and no momentum
+Max R2 score:  0.9594573917505455  for eta value:  0.001  with lambda:  0.001  mini batch size:  64  and momentum:  0.0
+
+Calculating Ridge with SGD, Adam tuning and momentum
+Max R2 score:  0.9605179495862979  for eta value:  0.001  with lambda:  0.001  mini batch size:  64  and momentum:  0.4
+
+
+
+Starting Project 2: part b and c
+
+
+Training neural network for regression for eta:  1e-05  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1e-05  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.0001  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.001  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.01  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  0.1  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  1.0  and lambda:  10.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  1e-05
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.0001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.001
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.01
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  0.1
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  1.0
+Chosen activation function is:  sigmoid
+Training neural network for regression for eta:  10.0  and lambda:  10.0
+Chosen activation function is:  sigmoid
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing R2 scores for Neural Network Regression to file
+
+Printing MSE scores for Neural Network Regression to file
+Training NN using sigmoid activation function
+Chosen activation function is:  sigmoid
+
+Values calculated for test data:
+The NeuralNetwork MSE score is: 28.3548
+The NeuralNetwork R2 score is: -378.4921
+
+Values calculated for training data:
+The NeuralNetwork MSE score is: 26.7499
+The NeuralNetwork R2 score is: -355.2846
+Training NN using RELU activation function
+Chosen activation function is:  RELU
+
+Values calculated for test data:
+The NeuralNetwork MSE score is: 14.6787
+The NeuralNetwork R2 score is: -195.4560
+
+Values calculated for training data:
+The NeuralNetwork MSE score is: 9.3244
+The NeuralNetwork R2 score is: -123.1931
+Training NN using LeakyRELU activation function
+Chosen activation function is:  LeakyRELU
+
+Values calculated for test data:
+The NeuralNetwork MSE score is: 20.5851
+The NeuralNetwork R2 score is: -274.5047
+
+Values calculated for training data:
+The NeuralNetwork MSE score is: 23.1740
+The NeuralNetwork R2 score is: -307.6573
+
+Generating dataset from Wisconsin Breast Cancer Data
+
+Accuracy score on training set: 0.6066
+Accuracy score on test set: 0.7105
+
+For sklearn mlpclassifier:
+Accuracy score on training set: 0.8989
+Accuracy score on test set: 0.8860
+
+Starting Project 2: part d
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  WBC  to file
+
+
+
+Starting Project 2: part e
+
+
+Logistic regression using  WBC  image data
+
+Using Scikit-Learn:
+Accuracy of training data:  0.8989010989010989
+Accuracy of test data:  0.9035087719298246
+
+Generating accuracy scores for Logistic Regression
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  WBC  to file
+
+Generating dataset from MNIST
+
+
+Starting Project 2: part d
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  MNIST  to file
+
+
+
+Starting Project 2: part e
+
+
+Logistic regression using  MNIST  image data
+
+Using Scikit-Learn:
+Accuracy of training data:  1.0
+Accuracy of test data:  0.9583333333333334
+
+Generating accuracy scores for Logistic Regression
+
+##### Printing data to files: #####
+Starting printer to generate data:
+
+
+Printing results for dataset  MNIST  to file
+
+(base) C:\Users\kimgr\Downloads\STUDY\Master\2022\fys-stk4155\project2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
